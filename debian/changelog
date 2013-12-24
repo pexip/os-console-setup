@@ -1,3 +1,9 @@
+console-setup (1.70ubuntu5pexip1) pexip; urgency=low
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Tue, 24 Dec 2013 13:40:13 +0000
+
 console-setup (1.70ubuntu5) precise-proposed; urgency=low
 
   * Update Ubuntu-specific translations from Launchpad (LP: #985605).

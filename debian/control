@@ -1,15 +1,17 @@
 Source: console-setup
 Section: utils
 Priority: optional
-Maintainer: Ubuntu Installer Team <ubuntu-installer@lists.ubuntu.com>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Ubuntu Installer Team <ubuntu-installer@lists.ubuntu.com>
 XSBC-Original-Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
-Uploaders: Anton Zinoviev <zinoviev@debian.org>, Christian Perrier <bubulle@debian.org>
+XSBC-Pexip-Original-Uploaders: Anton Zinoviev <zinoviev@debian.org>, Christian Perrier <bubulle@debian.org>
 Build-Depends-Indep: perl, libxml-parser-perl, xkb-data (>= 1.6), xkb-data-i18n, keymapper (>= 0.5.3-7)
 Build-Depends: debhelper (>= 7), po-debconf, bdfresize, liblocale-gettext-perl
 Standards-Version: 3.8.3
 XS-Debian-Vcs-Browser: http://git.debian.org/?p=d-i/console-setup.git
 XS-Debian-Vcs-Git: git://git.debian.org/d-i/console-setup.git
 Vcs-Bzr: http://bazaar.launchpad.net/~ubuntu-core-dev/console-setup/ubuntu
+XS-Pexip-Upstream: http://archive.ubuntu.com/ubuntu/ precise
 
 Package: keyboard-configuration
 Section: utils
