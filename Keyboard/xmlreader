@@ -101,7 +101,7 @@ sub parse_configItem {
 		$description = parse_text $arg;
 	    }
 	} elsif ($tag =~ /^(shortDescription|_description
-                           |vendor|languageList|countryList)$/x) {
+                           |vendor|hwList|languageList|countryList)$/x) {
 	} elsif ($tag eq 0) {
 	    warning "configItem: Garbage in configItem: $arg.\n" if ($arg !~ /^\s*$/);
 	} else {
@@ -277,9 +277,6 @@ if (not exists $modelvalues{sun4}) {
 }
 if (not exists $modelvalues{sun5}) {
     $models{'Sun Type 5'} = 'sun5';
-}
-if (not exists $modelvalues{SKIP}) {
-    $models{'Do not configure keyboard; keep kernel keymap'} = 'SKIP';
 }
 
 print <<'EOT';
