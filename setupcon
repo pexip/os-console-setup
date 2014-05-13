@@ -722,10 +722,10 @@ esac
 # cached
 case "$kernel" in
     linux)
-        cached=/etc/console-setup/cached_${CHARMAP}_$backspace$VARIANT.kmap.gz
+        cached=/etc/console-setup/cached.kmap.gz
         ;;
     freebsd)
-        cached=/etc/console-setup/cached_${CHARMAP}_$backspace$VARIANT.kbd
+        cached=/etc/console-setup/cached.kbd
         ;;
 esac
 

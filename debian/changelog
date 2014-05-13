@@ -2,6 +2,9 @@ console-setup (1.102pexip1) pexip; urgency=low
 
   * Prepare Pexip packaging
   * debian/control: Remove build-dep on locales-all
+  * debian/rules, debian/keyboard-configuration.console-setup.upstart,
+    setupcon:
+    Reinstate upstart-based init for compatibility
 
  -- John-Mark Bell <jmb@pexip.com>  Fri, 09 May 2014 01:07:13 +0100
 

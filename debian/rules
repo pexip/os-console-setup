@@ -145,8 +145,8 @@ install-main: build
 		usr/share/console-setup/
 	dh_link -pkeyboard-configuration usr/share/X11/xkb/rules/xorg.lst \
 		usr/share/doc/keyboard-configuration/xorg.lst
-	dh_installinit -pkeyboard-configuration \
-		--no-start --name keyboard-setup -- start 06 S .
+#	dh_installinit -pkeyboard-configuration \
+#		--no-start --name keyboard-setup -- start 06 S .
 	dh_installinit -pkeyboard-configuration \
 		--no-start --name console-setup -- start 49 S .
 
