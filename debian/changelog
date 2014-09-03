@@ -1,3 +1,119 @@
+console-setup (1.111pexip1) pexip; urgency=low
+
+  * New upstream release.
+
+ -- John-Mark Bell <jmb@pexip.com>  Wed, 03 Sep 2014 15:55:30 +0100
+
+console-setup (1.111) unstable; urgency=low
+
+  [ Anton Zinoviev ]
+  * setupcon --setup-dir:
+    - generate commands which do not require gzip in initrd;
+    - simplify the code by more general handling of special shell symbols
+      in command arguments.
+    - do not remove temporary files before the script exits so that the
+      code of --setup-dir is able to use a keymap stored in a termporary file;
+  * Give prefix cached_ to files created in /etc/console-setup.  Remove
+    such files when console-setup or console-setup-mini are removed or
+    purged and /bin/setupcon doesn't exist.  Thanks to Andreas Beckmann
+    and all contributors to the bug report.  Closes: #672160.  Files
+    created by older versions of the package will not be removed.
+  * ckbcomp: change the approximation method for non-defined symbols
+    during the flattening phase.  This is a dangerous change, let's hope
+    I've done it right.  Thanks to Artem Rusanov for the informative bug
+    report, closes: #722566.
+  * bdf2psf: allow omited trailing zero bytes in the BITMAP part of a BDF
+    character definition.  Thanks to Ben Harris for the bug report and the
+    patch, closes: #730430.
+  * setupcon:
+    - improve the output of setupcon --verbose;
+    - run printf '\033%%@' and printf '\033%%G' in background.  I suppose
+      this closes: #678897, #705971.  Thanks to Matteo Croce,
+      John A. Livingston, Alban Browaeys, Stefano Forli,
+      John D. Hendrickson, Sara Darnell, Hendrik Bijlsma and
+      Daniele Di Domizio;
+    - issue warnings about /etc being mounted read-only only if it actually
+      needs to write something there.  Thanks to Michael Tokarev,
+      closes: #691060;
+    - Fix bugs related to setupcon VARIANT.  Thanks to Trent W. Buck,
+      closes: #743476.
+  * Mark all packages as "Multi-Arch: foreign".  Thanks to Guillem Jover
+    and Noel David Torres Taño, closes: #693922.
+  * keyboard.5: add https://wiki.archlinux.org/index.php/X_KeyBoard_extension
+    as another source for further information.
+  * setupcon.1: document the options --save-keyboard and --setup-dir to be
+    used by initrd builders.
+  * Use which instead of type in the config scripts to avoid lintian warnings.
+
+ -- Anton Zinoviev <zinoviev@debian.org>  Fri, 08 Aug 2014 14:21:19 +0300
+
+console-setup (1.110) unstable; urgency=low
+
+  [ Anton Zinoviev ]
+  * Do not remember answer 'no' given to the question 'keep unsupported
+    configuration'.  Thanks to Bernhard R. Link and Steve Cotton,
+    closes: #729321.
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 03 Aug 2014 09:00:30 +0200
+
+console-setup (1.109) unstable; urgency=low
+
+  [ Changwoo Ryu ]
+  * Correct default keymap for South Korea. Closes: #756052
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 26 Jul 2014 08:52:31 +0200
+
+console-setup (1.108) unstable; urgency=low
+
+  [ Updated translations ]
+  * Portuguese (pt.po) by Miguel Figueiredo
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 08 May 2014 09:40:01 +0200
+
+console-setup (1.107) unstable; urgency=low
+
+  [ Updated translations ]
+  * Amharic (am.po) by Tegegne Tefera
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 05 Apr 2014 16:51:59 +0200
+
+console-setup (1.106) unstable; urgency=low
+
+  [ Updated translations ]
+  * Korean (ko.po) by Changwoo Ryu
+  * Simplified Chinese (zh_CN.po) by YunQiang Su
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 19 Mar 2014 09:07:41 +0100
+
+console-setup (1.105) unstable; urgency=low
+
+  [ Updated translations ]
+  * Belarusian (be.po) by Viktar Siarheichyk
+
+  [ Christian Perrier ]
+  * Explicitly link to GPL-2 document in debian/copyright
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 07 Jan 2014 13:41:32 +0100
+
+console-setup (1.104) unstable; urgency=low
+
+  * Use nepali keymap for Nepali and Tharu by default
+
+  [ Updated translations ]
+  * Bosnian (bs.po) by Amila Valjevčić
+  * Hungarian (hu.po) by Judit Gyimesi
+  * Slovak (sk.po) by Ivan Masár
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 10 Dec 2013 14:49:33 +0100
+
+console-setup (1.103) unstable; urgency=low
+
+  [ Updated translations ]
+  * Galician (gl.po) by Jorge Barreiro
+  * Simplified Chinese (zh_CN.po) by YunQiang Su
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 08 Nov 2013 22:14:09 +0100
+
 console-setup (1.102pexip1) pexip; urgency=low
 
   * Prepare Pexip packaging
