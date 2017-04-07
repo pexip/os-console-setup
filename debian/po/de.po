@@ -5,23 +5,23 @@
 #
 # German messages for debian-installer (sublevel1).
 # Copyright (C) 2003 Software in the Public Interest, Inc.
-#
+# #
 # This file is distributed under the same license as debian-installer.
-# Holger Wansing <linux@wansing-online.de>, 2008 - 2015.
+# Holger Wansing <linux@wansing-online.de>, 2008 - 2016.
 # Jens Seidel <jensseidel@users.sf.net>, 2005, 2006, 2007, 2008.
 # Dennis Stampfer <seppy@debian.org>, 2003, 2004, 2005.
 # Alwin Meschede <ameschede@gmx.de>, 2003, 2004.
 # Bastian Blank <waldi@debian.org>, 2003.
 # Jan Luebbe <jluebbe@lasnet.de>, 2003.
 # Thorsten Sauter <tsauter@gmx.net>, 2003.
-#
+# #
 # Console-setup strings translations:
 # (identified by "./console-setup.templates")
 # Copyright (C) 2006, the console-setup package'c copyright holder
 # Copyright (C) 2006, Matthias Julius
 # Copyright (C) 2007-2009 Helge Kreutzmann
 # Copyright (C) 2008-2011 Holger Wansing
-#
+# #
 # Translations from iso-codes:
 # Alastair McKinstry <mckinstry@computer.org>, 2001.
 # Björn Ganslandt <bganslan@gmx.net>, 2000, 2001.
@@ -38,10 +38,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: console-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-02-19 22:00+0000\n"
-"PO-Revision-Date: 2015-02-24 20:53+0200\n"
+"POT-Creation-Date: 2016-02-29 19:44+0300\n"
+"PO-Revision-Date: 2016-05-24 20:40+0200\n"
 "Last-Translator: Holger Wansing <linux@wansing-online.de>\n"
-"Language-Team: Debian German <debian-l10n-german@lists.debian.org>\n"
+"Language-Team: German <debian-l10n-german@lists.debian.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -978,8 +978,8 @@ msgstr "Britisches Englisch"
 #. Type: select
 #. Choices
 #: ../keyboard-configuration.templates:16001
-msgid "Bulgarian"
-msgstr "Bulgarisch"
+msgid "Bulgarian (BDS layout)"
+msgstr "Bulgarisch (BDS-Anordnung)"
 
 #. Type: select
 #. Choices

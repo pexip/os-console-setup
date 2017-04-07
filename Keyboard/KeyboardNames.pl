@@ -626,7 +626,7 @@ package KeyboardNames;
     'ml' => {
 	'English (USA International)' => 'us-intl',
 	'English (USA Macintosh)' => 'us-mac',
-	'FranÃ§ais (France Alternative)' => 'fr-oss',
+	'Français (France Alternative)' => 'fr-oss',
     },
     'mt' => {
 	'Maltese keyboard with US layout' => 'us',

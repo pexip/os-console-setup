@@ -35,9 +35,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ro\n"
 "Report-Msgid-Bugs-To: console-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-02-19 22:00+0000\n"
-"PO-Revision-Date: 2015-03-21 18:59+0200\n"
-"Last-Translator: Bradut Boghita <bradut@bradut.com>\n"
+"POT-Creation-Date: 2016-02-29 19:44+0300\n"
+"PO-Revision-Date: 2015-04-08 22:04+0300\n"
+"Last-Translator: Ioan Eugen Stan <stan.ieugen@gmail.com>\n"
 "Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -960,8 +960,9 @@ msgstr "Engleză Britanică"
 #. Type: select
 #. Choices
 #: ../keyboard-configuration.templates:16001
-msgid "Bulgarian"
-msgstr "Bulgară"
+#, fuzzy
+msgid "Bulgarian (BDS layout)"
+msgstr "Bulgară (aranjament fonetic)"
 
 #. Type: select
 #. Choices

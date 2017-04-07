@@ -4,16 +4,16 @@ Priority: optional
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Uploaders: Anton Zinoviev <zinoviev@debian.org>, Christian Perrier <bubulle@debian.org>
 Build-Depends-Indep: xkb-data (>= 1.6), locales-all, sharutils
-Build-Depends: perl, debhelper (>= 9), po-debconf, libxml-parser-perl, bdfresize, liblocale-gettext-perl
+Build-Depends: perl, debhelper (>= 9), po-debconf, libxml-parser-perl, bdfresize, liblocale-gettext-perl, dh-systemd
 Standards-Version: 3.9.1
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=d-i/console-setup.git
-Vcs-Git: git://anonscm.debian.org/d-i/console-setup.git
+Vcs-Browser: https://anonscm.debian.org/cgit/d-i/console-setup.git
+Vcs-Git: https://anonscm.debian.org/git/d-i/console-setup.git
 
 Package: keyboard-configuration
 Section: utils
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}, liblocale-gettext-perl, initscripts
+Depends: ${misc:Depends}, liblocale-gettext-perl
 Pre-Depends: debconf (>= 1.5.34)
 Breaks: console-setup (<< 1.71), console-setup-mini (<< 1.47)
 Replaces: console-setup (<< 1.47), console-setup-mini (<< 1.47)
@@ -28,7 +28,7 @@ Section: utils
 Architecture: all
 Multi-Arch: foreign
 Pre-Depends: debconf (>= 1.5.34)
-Depends: console-setup-linux | console-setup-freebsd, xkb-data (>= 0.9), keyboard-configuration (= ${source:Version}), ${misc:Depends}
+Depends: console-setup-linux | console-setup-freebsd | hurd, xkb-data (>= 0.9), keyboard-configuration (= ${source:Version}), ${misc:Depends}
 Suggests: lsb-base (>= 3.0-6), locales
 Conflicts: console-setup-mini
 Breaks: lsb-core (<< 2.0-6), lsb (<< 2.0-6), lsb-base (<< 3.0-6)
@@ -71,8 +71,9 @@ Section: utils
 Priority: optional
 Architecture: all
 Multi-Arch: foreign
-Depends: kbd (>= 0.99-12) | console-tools (>= 1:0.2.3-16), keyboard-configuration (= ${source:Version}), ${misc:Depends}
+Depends: kbd (>= 0.99-12) | console-tools (>= 1:0.2.3-16), keyboard-configuration (= ${source:Version}), ${misc:Depends}, init-system-helpers (>= 1.29~) | initscripts
 Suggests: console-setup
+Conflicts: console-setup-freebsd
 Breaks: console-terminus, console-cyrillic (<= 0.9-11), console-setup (<< 1.71)
 Replaces: console-terminus, console-setup (<< 1.71)
 Provides: console-terminus
@@ -85,8 +86,9 @@ Section: utils
 Priority: optional
 Architecture: all
 Multi-Arch: foreign
-Depends: vidcontrol, kbdcontrol, keyboard-configuration (= ${source:Version}), ${misc:Depends}
+Depends: vidcontrol, kbdcontrol, keyboard-configuration (= ${source:Version}), ${misc:Depends}, init-system-helpers (>= 1.29~) | initscripts
 Suggests: console-setup
+Conflicts: console-setup-linux
 Breaks: console-setup (<< 1.71)
 Replaces: console-setup (<< 1.71)
 Description: FreeBSD specific part of console-setup

@@ -50,11 +50,23 @@ OPTIONS
 
 
        -k, --keyboard-only
-              Setup the keyboard only, do not setup the font.
+              Setup the keyboard only, do not setup the font or the  terminal.
+              On Linux it is enough to do this configuration only once.
 
 
        -f, --font-only
-              Setup the font only, do not setup the keyboard.
+              Setup  the font only, do not setup the keyboard or the terminal.
+              On Linux this configuration should be repeated each time  a  new
+              console  driver  is activated (for example when the frame buffer
+              becomes active).
+
+
+       -t, --terminal-only
+              Setup the terminal only, do not setup the keyboard or the font.
+
+
+       --current-tty
+              Setup the only the current virtual terminal.
 
 
        --force
@@ -73,9 +85,9 @@ OPTIONS
 
 
        --save-only
-              The same as --save, but does not  setup  the  keyboard  and  the
-              font.   This  option  can  be useful if you want to save the re-
-              quired files while the screen is controlled by a X server.
+              The same as --save, but does not setup  anything.   This  option
+              can  be  useful if you want to save the required files while the
+              screen is controlled by a X server.
 
 
        --save-keyboard FILE

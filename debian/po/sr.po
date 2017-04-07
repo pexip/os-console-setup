@@ -24,9 +24,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: console-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-02-19 22:00+0000\n"
-"PO-Revision-Date: 2012-10-19 22:10+0100\n"
-"Last-Translator: Karolina Kalic <karolina@resenje.org>\n"
+"POT-Creation-Date: 2016-02-29 19:44+0300\n"
+"PO-Revision-Date: 2016-04-10 12:34+0100\n"
+"Last-Translator: Dragan Filipović <filipovic@tutanota.com>\n"
 "Language-Team: Serbian <debian-l10n-serbian@lists.debian.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -472,9 +472,9 @@ msgid ""
 "\"${XKBOPTIONS}\".  It is based on the currently defined language/region and "
 "the settings in /etc/X11/xorg.conf."
 msgstr ""
-"Подразумевана вредност за опције распореда тастатуре је XKBOPTIONS="
-"„${XKBOPTIONS}“.  Базирана је на тренутно дефинисаним језику/региону и "
-"подешавањима у /etc/X11/xorg.conf."
+"Подразумевана вредност за опције распореда тастатуре је "
+"XKBOPTIONS=„${XKBOPTIONS}“.  Базирана је на тренутно дефинисаним језику/"
+"региону и подешавањима у /etc/X11/xorg.conf."
 
 #. Type: boolean
 #. Description
@@ -936,8 +936,8 @@ msgstr "британски енглески"
 #. Type: select
 #. Choices
 #: ../keyboard-configuration.templates:16001
-msgid "Bulgarian"
-msgstr "бугарски"
+msgid "Bulgarian (BDS layout)"
+msgstr "бугарски (BSD распоред)"
 
 #. Type: select
 #. Choices
@@ -949,7 +949,7 @@ msgstr "бугарски (phonetic распоред)"
 #. Choices
 #: ../keyboard-configuration.templates:16001
 msgid "Burmese"
-msgstr ""
+msgstr "бурмански"
 
 #. Type: select
 #. Choices
@@ -1219,7 +1219,7 @@ msgstr "персијски"
 #. Choices
 #: ../keyboard-configuration.templates:16001
 msgid "Philippines"
-msgstr ""
+msgstr "филипински"
 
 #. Type: select
 #. Choices
@@ -1309,7 +1309,7 @@ msgstr "швајцарски немачки"
 #. Choices
 #: ../keyboard-configuration.templates:16001
 msgid "Tajik"
-msgstr ""
+msgstr "таџикистански"
 
 #. Type: select
 #. Choices
@@ -1333,7 +1333,7 @@ msgstr "таи"
 #. Choices
 #: ../keyboard-configuration.templates:16001
 msgid "Tibetan"
-msgstr ""
+msgstr "тибетански"
 
 #. Type: select
 #. Choices

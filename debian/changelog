@@ -1,3 +1,379 @@
+console-setup (1.164) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Croatian (hr.po) by Valentin Vidic
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 07 Apr 2017 05:55:28 +0200
+
+console-setup (1.163) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Belarusian (be.po) by Viktar Siarheichyk
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 03 Mar 2017 06:57:41 +0100
+
+console-setup (1.162) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Thai (th.po) by Theppitak Karoonboonyanan
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 24 Feb 2017 11:42:15 +0100
+
+console-setup (1.161) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Italian (it.po) by Milo Casagrande
+  * Korean (ko.po) by Changwoo Ryu
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 20 Feb 2017 08:35:32 +0100
+
+console-setup (1.160) unstable; urgency=medium
+
+  [ Anton Zinoviev ]
+  * keyboard-configuration.preinst: run update-rc.d only after the
+    obsoleted configuration files have been removed. Thanks to
+    sacrificial-spam-address@ and Mateusz Łukasik, closes: #817232.
+
+  [ Updated translations ]
+  * Catalan (ca.po) by Jordi Mallach
+  * Spanish (es.po) by Javier Fernández-Sanguino Peña
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 09 Feb 2017 07:11:47 +0100
+
+console-setup (1.158) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Bulgarian (bg.po) by Damyan Ivanov
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 18 Jan 2017 07:05:30 +0100
+
+console-setup (1.157) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Japanese (ja.po) by Kenshi Muto
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 11 Jan 2017 06:55:54 +0100
+
+console-setup (1.156) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Slovak (sk.po) by Ivan Masár
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 06 Jan 2017 08:43:55 +0100
+
+console-setup (1.155) unstable; urgency=medium
+
+  [ Anton Zinoviev ]
+  * Add three Kazakh symbols to CyrAsia: Cyrillic capital and small letter
+    U with stroke and Tenge sign.  Thanks to Baurzhan Muftakhidinov,
+    closes: #844579.
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 12 Dec 2016 06:54:02 +0100
+
+console-setup (1.154) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Kazakh (kk.po) by Baurzhan Muftakhidinov
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 22 Nov 2016 09:13:24 +0100
+
+console-setup (1.153) unstable; urgency=medium
+
+  [ Anton Zinoviev ]
+  * keyboard-configuration.config: use untranslated C kbdnames strings in
+    case of failed iconv.  Thanks to ishikawa, closes: #842324.
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 13 Nov 2016 07:43:27 +0100
+
+console-setup (1.152) unstable; urgency=medium
+
+  [ Samuel Thibault ]
+  * Team upload.
+
+  [ Philip Hands ]
+  * ensure setupcon generated script never has empty braces. Closes: #833053.
+
+  [ Samuel Thibault ]
+  * Make console-setup installable on hurd-any, d-i insists on having it.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sat, 15 Oct 2016 23:07:52 +0200
+
+console-setup (1.151) unstable; urgency=medium
+
+  [ Samuel Thibault ]
+  * Team upload.
+  * rules: Fix race in parallel builds, closes: #837327.
+
+  [ gregor herrmann and Samuel Thibault ]
+  * Keyboard/kbdnames-maker, Keyboard/kbdcompiler, Keyboard/Makefile,
+    debian/preprocessor, debian/rules: Pass ./KeyboardNames.pl to kbdnames-maker
+    instead of KeyboardNames.pl, since perl does not look at '.' any
+    more. Closes: #840209.
+
+  [ Dominik George ]
+  * keyboard-configuration.config: Fix mksh compatibility. Closes: #833378.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 09 Oct 2016 18:30:39 +0200
+
+console-setup (1.150) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Danish (da.po) by Joe Hansen
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 21 Sep 2016 09:16:22 +0200
+
+console-setup (1.149) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Danish (da.po) by Joe Hansen
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 18 Sep 2016 17:53:38 +0200
+
+console-setup (1.148) unstable; urgency=medium
+
+  [ Karsten Merker ]
+  * Typo fix in the setupcon manpage. Closes: #832595.
+
+  [ Updated translations ]
+  * Turkish (tr.po) by Mert Dirik
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 29 Jul 2016 08:06:33 +0200
+
+console-setup (1.147) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Russian (ru.po) by Yuri Kozlov
+  * Ukrainian (uk.po) by Anton Gladky
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 17 Jul 2016 21:25:19 +0200
+
+console-setup (1.146) unstable; urgency=medium
+
+  * Rebuild with translation files that include complete information
+    about translator and last update information.
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 05 Jun 2016 21:49:08 +0200
+
+console-setup (1.145) unstable; urgency=medium
+
+  * Rebuild with translations back in place
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 29 May 2016 19:25:22 +0200
+
+console-setup (1.144) unstable; urgency=medium
+
+  [ Updated translations ]
+  * German (de.po) by Holger Wansing
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 28 May 2016 15:13:01 +0200
+
+console-setup (1.143) unstable; urgency=medium
+
+  [ Anton Zinoviev ]
+  * Use non-recursive make-files.  Closes: #767260.  Some ideas borrowed
+    from http://mischasan.wordpress.com.
+  * New configuration variable BEEP controlling the style of the system
+    beep.  Documented in console-setup(5).
+  * console-setup-{linux,freebsd}: Add an alternative dependency
+    init-system-helpers (>= 1.29~) to initscripts.  Closes: #804988.
+  * keyboard-setup.sh.init: remove the unnecessary "Should-Start: keymap
+    udev".  Thanks to Felipe Sateler for the helpful discussion.
+  * Move the main logic out of the init.d scripts into scripts installed in
+    /lib/console-setup.
+  * console-setup.service: move this service out of single user mode.  Do
+    not require to run it before getty.
+  * Keyboard/kbdcompiler: generate properly the precomiled keymaps for
+    console-setup-mini; they have been totaly broken for a while...
+  * Keyboard/{xmlreader,compose_translator}: use utf8 instead of the
+    deprecated encoding pragma.
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 22 May 2016 08:47:29 +0200
+
+console-setup (1.142) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Serbian (sr.po) by Dragan Filipović
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 24 Apr 2016 17:47:41 +0200
+
+console-setup (1.141) unstable; urgency=medium
+
+  * Add systemd units wrapping the init scripts.
+    Closes: #796603
+
+ -- Felipe Sateler <fsateler@debian.org>  Fri, 01 Apr 2016 20:24:38 -0300
+
+console-setup (1.140) unstable; urgency=medium
+
+  [ Jon Boden ]
+  * keyboard-configuration.postinst: Avoid hurd check on non-hurd systems,
+    closes: #818842.
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 22 Mar 2016 07:46:45 +0100
+
+console-setup (1.139) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Czech (cs.po) by Miroslav Kure
+  * Japanese (ja.po) by Kenshi Muto
+  * Portuguese (Brazil) (pt_BR.po) by Adriano Rafael Gomes
+  * Portuguese (pt.po) by Miguel Figueiredo
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 10 Mar 2016 07:09:41 +0100
+
+console-setup (1.138) unstable; urgency=medium
+
+  [ Anton Zinoviev ]
+  * Changes in setupcon:
+    - new option -t|--terminal-only.  The functionality of the
+      old command 'setupcon -f' is now covered by 'setupcon -f -t';
+    - new options --current-tty and --print-commands-only;
+    - on Linux 'setupcon --save' creates in /etc/console-setup/
+      configuration scripts for faster boot configuration;
+    - on Linux load the font and the console map using only one
+      setfont command;
+    - when the keyboard model is unknown, use a default value and
+      issue a warning.  Closes: #751955, #788441.  Apply a patch about
+      KMAP by Michal Maruska;
+    - more robust test whether /etc is writable, closes: #810246;
+    - setup-dir: configure only the keyboard and only the current
+      console.  Create a flag file /run/console-setup/keymap_loaded so
+      that we can avoid loading the keyboard second time.
+  * Changes in ckbcomp:
+    - remove the 'use locale' pragma as suggested by Klaus Ethgen.
+      Closes: #810538.
+  * kbdcompiler: create a log file ckbcomp.log.
+  * On Linux: use precomputed scripts and Udev to configure the console.
+    Closes: #759657, #763695.
+  * On Linux: move init.d/console-setup.sh out of single user mode.
+    Closes: #796603, #816090.
+  * Move the init scripts from keyboard-configuration to
+    console-setup-linux and console-setup-freebsd.  Closes: #805928.
+    Give them a .sh extension to make them sourcable.  Move the
+    dependency on initscripts to these two packages.  Closes: #804988.
+  * postinst: run update-rc.d with parameter 'defaults'. Closes: #722064.
+  * Put db_stop near the end of console-setup.postinst.  Redirect all
+    output of setupcon to /dev/null.  Hopefully, this
+    closes: #782753, #776101.
+  * debian/keyboard_present.sh: add a pattern for Bluetooth keyboards,
+    closes: #807945.
+  * keyboard-configuration.config: the Serbian keyboard layout is 'rs',
+    not 'cs'.  For Bulgarian consider bg,bg as unsupported by Debconf.  Do
+    not set default variant 'bds' for Bulgarian or 'latin' for Serbian but
+    use default values instead.  Closes: #778721, #778722.
+  * Remove Keyboard/locale/lib/ from the source package.  Closes: #787528
+  * bug-control: add systemd to the packages in the package-status list.
+  * Make the builds reproducible.  Thanks to Reiner Herrmann for the
+    patch.  Closes: #775531.
+  * Minor clarifications in man/keyboard.5
+  * Make console-setup-linux and console-setup-freebsd conflict with each
+    other so that lintian is pleased.
+
+ -- Anton Zinoviev <zinoviev@debian.org>  Wed, 02 Mar 2016 20:33:33 +0300
+
+console-setup (1.137) unstable; urgency=medium
+
+  [ Anton Zinoviev ]
+  * bug-control: add gnome-control-center to the packages in the
+    package-status list as it modifies /etc/default/keyboard.
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 22 Feb 2016 07:08:37 +0100
+
+console-setup (1.136) unstable; urgency=medium
+
+  [ Colin Watson ]
+  * Use HTTPS for Vcs-* URLs, and link to cgit rather than gitweb.
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 01 Feb 2016 06:56:04 +0100
+
+console-setup (1.135) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Swedish (sv.po) by Martin Bagge / brother
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 28 Jan 2016 08:09:47 +0100
+
+console-setup (1.134) unstable; urgency=medium
+
+  [ Colin Watson ]
+  * debian/keyboard-configuration.postinst: Test for the Hurd using uname
+    rather than udpkg, to avoid stderr noise in non-d-i contexts.
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 27 Oct 2015 06:45:06 +0100
+
+console-setup (1.133) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Turkish (tr.po) by Mert Dirik
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 24 Sep 2015 06:49:17 +0200
+
+console-setup (1.132) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Hebrew (he.po) by Lior Kaplan
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 24 Sep 2015 06:48:46 +0200
+
+console-setup (1.131) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Turkish (tr.po) by Mert Dirik
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 25 Jul 2015 07:32:23 +0200
+
+console-setup (1.130) unstable; urgency=medium
+
+  [ Cyril Brulebois ]
+  * Teach ckbcomp about PC_FN_LEVEL2, fixing issues with Nokia N900
+    keyboard model (nokiarx51). Thanks to Sebastian Reichel for the report
+    and the patch (Closes: #789816).
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 27 Jun 2015 08:38:26 +0200
+
+console-setup (1.129) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Portuguese (Brazil) (pt_BR.po) by Adriano Rafael Gomes
+  * Turkish (tr.po) by Mert Dirik
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 19 Jun 2015 19:14:13 +0200
+
+console-setup (1.128) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Norwegian Bokmal (nb.po) by Hans Fredrik Nordhaug
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 24 May 2015 06:10:02 +0200
+
+console-setup (1.127) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Portuguese (Brazil) (pt_BR.po) by Adriano Rafael Gomes
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 18 May 2015 15:05:08 +0200
+
+console-setup (1.126) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Tamil (ta.po) by Dr.T.Vasudevan
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 12 May 2015 20:20:44 +0200
+
+console-setup (1.125) unstable; urgency=low
+
+  [ Updated translations ]
+  * Bulgarian (bg.po) by Damyan Ivanov
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 04 May 2015 14:58:09 +0200
+
+console-setup (1.124) unstable; urgency=low
+
+  [ Updated translations ]
+  * Belarusian (be.po) by Viktar Siarheichyk
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 27 Apr 2015 07:04:50 +0200
+
 console-setup (1.123) unstable; urgency=low
 
   [ Updated translations ]
@@ -149,7 +525,7 @@ console-setup (1.111) unstable; urgency=low
     - Fix bugs related to setupcon VARIANT.  Thanks to Trent W. Buck,
       closes: #743476.
   * Mark all packages as "Multi-Arch: foreign".  Thanks to Guillem Jover
-    and Noel David Torres Taño, closes: #693922.
+    and Noel David Torres Taño, closes: #694679.
   * keyboard.5: add https://wiki.archlinux.org/index.php/X_KeyBoard_extension
     as another source for further information.
   * setupcon.1: document the options --save-keyboard and --setup-dir to be

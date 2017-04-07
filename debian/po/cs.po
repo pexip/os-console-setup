@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: console-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-02-19 22:00+0000\n"
-"PO-Revision-Date: 2015-02-22 08:40+0100\n"
+"POT-Creation-Date: 2016-02-29 19:44+0300\n"
+"PO-Revision-Date: 2016-03-05 08:36+0100\n"
 "Last-Translator:  Miroslav Kure <kurem@debian.cz>\n"
 "Language-Team:  Czech <provoz@debian.cz>\n"
 "Language: cs\n"
@@ -936,8 +936,8 @@ msgstr "britská angličtina"
 #. Type: select
 #. Choices
 #: ../keyboard-configuration.templates:16001
-msgid "Bulgarian"
-msgstr "bulharská"
+msgid "Bulgarian (BDS layout)"
+msgstr "bulharská (rozložení BDS)"
 
 #. Type: select
 #. Choices

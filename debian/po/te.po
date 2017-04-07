@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: te\n"
 "Report-Msgid-Bugs-To: console-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-02-19 22:00+0000\n"
+"POT-Creation-Date: 2016-02-29 19:44+0300\n"
 "PO-Revision-Date: 2012-03-08 22:29+0530\n"
 "Last-Translator: Arjuna Rao Chavala <arjunaraoc@googlemail.com>\n"
 "Language-Team: d-i <kde-i18n-doc@kde.org>\n"
@@ -916,8 +916,9 @@ msgstr "బ్రిటీష్ ఇంగ్లీష్"
 #. Type: select
 #. Choices
 #: ../keyboard-configuration.templates:16001
-msgid "Bulgarian"
-msgstr "బల్గేరియన్"
+#, fuzzy
+msgid "Bulgarian (BDS layout)"
+msgstr "బల్గేరియన్ (phonetic అమరిక)"
 
 #. Type: select
 #. Choices
