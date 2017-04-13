@@ -1,3 +1,9 @@
+console-setup (1.111pexip2) pexip; urgency=low
+
+  * No-change rebuild
+
+ -- John-Mark Bell <jmb@pexip.com>  Thu, 13 Apr 2017 17:18:04 +0100
+
 console-setup (1.111pexip1) pexip; urgency=low
 
   * New upstream release.
