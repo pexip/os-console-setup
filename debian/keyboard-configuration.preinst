@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "install" ] || [ "$1" = "upgrade" ]; then
+    if [ -e "/etc/init.d/console-setup" ] && [ -L "/etc/init.d/console-setup" ] && [ $(readlink -f "/etc/init.d/console-setup") = "/lib/init/upstart-job" ]; then
+        rm -f "/etc/init.d/console-setup"
+    fi
+fi
+
+#DEBHELPER#

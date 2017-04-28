@@ -1,6 +1,7 @@
 console-setup (1.111pexip2) pexip; urgency=low
 
-  * No-change rebuild
+  * debian/keyboard-configuration.preinst: prepare transition 
+    /etc/init.d/console-setup from symlink to conffile
 
  -- John-Mark Bell <jmb@pexip.com>  Thu, 13 Apr 2017 17:18:04 +0100
 
