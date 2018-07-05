@@ -9,7 +9,7 @@ Build-Depends: perl, debhelper (>= 9), po-debconf, libxml-parser-perl, bdfresize
 Standards-Version: 3.9.1
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=d-i/console-setup.git
 Vcs-Git: git://anonscm.debian.org/d-i/console-setup.git
-XS-Pexip-Upstream: http://ftp.debian.org/debian/ jessie
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ stretch
 
 Package: keyboard-configuration
 Section: utils
